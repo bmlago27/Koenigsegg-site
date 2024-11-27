@@ -1,0 +1,118 @@
+/* Fonte agressiva */
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #eaeaea;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #000;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #FF5500;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('https://images.alphacoders.com/105/1058637.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #FF5500;
+    border-color: #FF5500;
+    color: #FFF;
+}
+
+.hero-section .btn:hover {
+    background-color: #FF3300;
+    border-color: #FF3300;
+}
+
+/* Seção Sobre */
+.about {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Modelos */
+.modelos {
+    background-color: #fff;
+    color: #333;
+}
+
+.modelos .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.modelos .card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    color: #000;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* Contato */
+.contact {
+    background-color: #f0f0f0;
+}
+
+.contact .btn {
+    background-color: #FF5500;
+    border-color: #FF5500;
+    color: #FFF;
+}
+
+.contact .btn:hover {
+    background-color: #FF3300;
+    border-color: #FF3300;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f8f8;
+}

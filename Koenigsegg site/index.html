@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Koenigsegg</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Fonte -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Scroll -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .hero-section {
+            background-image: url('https://images2.alphacoders.com/132/1322511.jpeg');
+            background-size: cover; 
+            background-position: center; 
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://logosmarcas.net/wp-content/uploads/2021/09/Koenigsegg-Logo.png" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modelos">Modelos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section d-flex align-items-center justify-content-center">
+        <div class="text-center text-light">
+            <h1 class="display-4">Koenigsegg</h1>
+            <p class="lead">Inovação, Velocidade e Luxo</p>
+            <a href="#modelos" class="btn btn-primary btn-lg">Explore os Modelos</a>
+        </div>
+    </section>
+
+    <!-- Sobre a Koenigsegg -->
+    <section id="historia" class="about py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Sobre a Koenigsegg</h2>
+            <p class="lead">A Koenigsegg Automotive AB é uma fabricante sueca de carros esportivos de alta performance, fundada em 1994 por Christian von Koenigsegg, um entusiasta de carros que sonhava em criar um supercarro que combinasse luxo, tecnologia e velocidade.</p>
+        </div>
+    </section>
+
+    <!-- Modelos -->
+    <section id="modelos" class="modelos py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Modelos Icônicos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <img src="https://images5.alphacoders.com/894/894898.jpg" class="card-img-top" alt="Koenigsegg Agera">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Koenigsegg Agera</strong></h5>
+                            <p class="card-text">O Koenigsegg Agera é conhecido por quebrar recordes e redefinir os padrões de velocidade e design automotivo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <img src="https://4kwallpapers.com/images/wallpapers/koenigsegg-jesko-prototype-monochrome-5k-8k-5120x2880-868.jpg" class="card-img-top" alt="Koenigsegg Jesko">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Koenigsegg Jesko</strong></h5>
+                            <p class="card-text">O Jesko é uma homenagem ao fundador da empresa e um dos supercarros mais rápidos e tecnologicamente avançados do mundo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <img src="https://images8.alphacoders.com/132/1322416.jpeg" class="card-img-top" alt="Koenigsegg Gemera">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Koenigsegg Gemera</strong></h5>
+                            <p class="card-text">O Gemera é um hiper-GT que combina a performance brutal com espaço para quatro pessoas e muita tecnologia embarcada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Fale Conosco</h2>
+            <p class="lead">Entre em contato com a equipe da Koenigsegg para saber mais sobre nossos carros e serviços.</p>
+            <a href="mailto:contato@koenigsegg.com" class="btn btn-primary">Enviar Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-dark py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Koenigsegg. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
